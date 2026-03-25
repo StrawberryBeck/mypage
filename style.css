@@ -1,14 +1,14 @@
 .button {
     width:10vw;
 }
-p{
-    font-family: pixel;
-    font-size: 5vw;
-}
-#hahn{
+.image {
     width: 50%;
     height: 50%;
-    border: 10px solid black;
+    border: 5px solid black;
+}
+p{
+    font-family: basic;
+    font-size: 5vw;
 }
 #container{
     display:flex;
