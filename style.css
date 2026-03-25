@@ -2,7 +2,7 @@
     width:10vw;
 }
 p{
-    font-family: myfont;
+    font-family: pixel;
     font-size: 5vw;
 }
 #hahn{
@@ -12,10 +12,28 @@ p{
 }
 #container{
     display:flex;
-    justify-content:right;
+    justify-content:middle;
 }
 @font-face{
-    font-family:myfont;
+    font-family:pixel;
     src: url(./Fonts/Jersey10-Regular.ttf);
+}
 
+@font-face {
+    font-family:basic;
+    src: url(./Fonts/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:cool;
+    src: url(./Fonts/ZillaSlabHighlight-Regular.ttf);
+}
+
+@font-face {
+    font-family:coolb;
+    src: url(./Fonts/ZillaSlabHighlight-Bold.ttf);
+}
+
+@font-face {
+    font-family:boldfont;
+    src: url(./Fonts/AlfaSlabOne-Regular.ttf);
 }
