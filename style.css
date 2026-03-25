@@ -1,8 +1,18 @@
 p{
+    font-family: myfont;
     font-size: 10vw;
 }
 #hahn{
     width: 50vw;
     height: 50vh;
     border: 10px solid black;
+}
+#container{
+    display:flex;
+    justify-content:right;
+}
+@font-face{
+    font-family:myfont;
+    src: url(./Fonts/Jersey10-Regular.ttf);
+
 }
