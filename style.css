@@ -1,3 +1,8 @@
 p{
     font-size: 10vw;
 }
+#hahn{
+    width: 50vw;
+    height: 50vh;
+    border: 10px solid black;
+}
