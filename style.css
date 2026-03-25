@@ -6,6 +6,10 @@
     height: 50%;
     border: 5px solid black;
 }
+.header{
+    position:fixed;
+}
+}
 p{
     font-family: basic;
     font-size: 5vw;
