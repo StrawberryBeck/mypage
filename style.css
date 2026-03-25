@@ -1,5 +1,7 @@
 .button {
     width:10vw;
+    color:rgb(248, 252, 255);
+    z-index:201
 }
 .image {
     width: 50%;
@@ -12,15 +14,14 @@
 }
 .headerbox{
     position:fixed;
-    width: 100vw;;
-    height: 50vh;;
+    width: 100vw;
+    height: 5vh;
     background-color:rgb(18, 18, 51);
     z-index: 200;
 }
-}
 p{
     font-family: basic;
-    font-size: 5vw;
+    font-size: 2em;
 }
 #container{
 
