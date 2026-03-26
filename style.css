@@ -1,12 +1,12 @@
 .button {
     width:10vw;
     color:rgb(248, 252, 255);
-    z-index:201
+    position:fixed;
+    z-index:201;
 }
-.image {
-    width: 50%;
-    height: 50%;
-    border: 5px solid black;
+
+.button:hover{
+    width:15vw;
 }
 .header{
     position:fixed;
@@ -19,9 +19,14 @@
     background-color:rgb(18, 18, 51);
     z-index: 200;
 }
+.image {
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;
+}
 p{
     font-family: basic;
-    font-size: 2em;
+    font-size: 1em;
 }
 #container{
 
@@ -52,4 +57,9 @@ p{
 @font-face {
     font-family:boldfont;
     src: url(./Fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@media (orientation: portrait)
+{
+    
 }
