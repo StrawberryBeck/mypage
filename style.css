@@ -6,9 +6,10 @@
 }
 .buttonside {
     color:rgb(248, 252, 255);
-    margin-left: 90%;
+    margin-right: 90%;
     position:fixed;
     z-index:201;
+    font-size: 1.5em;
 }
 
 .button:hover{
@@ -19,6 +20,7 @@
     z-index: 100;
 }
 .headerbox{
+    margin-top: 0%;
     position:fixed;
     width: 100vw;
     height: 5vh;
@@ -26,13 +28,13 @@
     z-index: 200;
 }
 .image {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     border: 5px solid black;
 }
 p{
     font-family: basic;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 #container{
 
