@@ -2,9 +2,11 @@
     margin: 0;
     padding:0;
 }
+
 body{
     width: 100vw;
     background-color: rgb(232, 232, 237);
+    cursor: url("./images/cursornew.png"), auto;
 }
 p{
     font-family: basic;
@@ -15,6 +17,9 @@ a:link{
 }
 a:visited{
     color:rgb(231, 176, 219);
+}
+a:hover{
+    font-size: 1.6em;
 }
 
 h1{
@@ -30,7 +35,7 @@ h2{
 }
 .button {
     width:2vw;
-    color:rgb(232, 232, 237);;
+    color:rgb(232, 232, 237);
     position:fixed;
     z-index:201;
 }
@@ -73,7 +78,7 @@ h2{
     box-sizing: border-box;
     width: 90%;
     height: 100%;
-    background-color: rgb(95, 106, 145);
+    background-color: rgb(87, 97, 133);
     margin-top: 0.5vw;
     border: 0.2vw solid rgb(32, 20, 47);
 }
