@@ -43,10 +43,10 @@ h2{
     width:3vw;
 }
 .buttonside {
-    width: 100%;
+    width: fit-content;
     height: 5vh;
     color:rgb(232, 232, 237);
-    margin-left: 70%;
+    right: 15px;
     margin-top: 0.25vw;
     position:fixed;
     z-index:201;
