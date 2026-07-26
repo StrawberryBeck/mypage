@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>AR</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body id="sound2">
+    <div class="headerbox">
+        <div class="buttonside">
+            <a href="../index.html">Ocean</a>
+            <a href="./jelly.html">Jelly</a>
+            <a href="./arscene.html">AR</a>
+        </div>
+    </div>
+    <h1>
+      <p>AR</p>
+    </h1>
+    <model-viewer auto-rotate src="tuna2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" autoplay>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+    <script src="script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
+    <h1>
+      <a href="https://www.fab.com/listings/6b90bbe2-3031-4b36-93ad-90f1cb2d01f5">Link for Tuna</a>
+    </h1>
+    <script src="./soundscript2.js"></script>
+  </body>
+</html>

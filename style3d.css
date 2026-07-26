@@ -1,0 +1,16 @@
+*{
+    background-image: 
+
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: 
+    linear-gradient(#241844,#2f3f6e,#241844);
+    cursor:url("./model(1)/bubble.png"),auto;
+}
+
+.bubbles{
+    background-image: none;
+    width: 30%;
+}
