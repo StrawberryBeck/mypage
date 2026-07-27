@@ -129,6 +129,16 @@ h2{
     font-family:boldfont;
     src: url(./Fonts/AlfaSlabOne-Regular.ttf);
 }
+@font-face {
+  font-family: Drybrush;
+  font-style: normal;
+  src: url("./Fonts/Drybrush-KV2wD.ttf");
+}
+@font-face {
+  font-family: Limelight;
+  font-style: normal;
+  src: url("./Fonts/Limelight-Regular.ttf");
+}
 
 
 @media (orientation: portrait)

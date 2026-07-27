@@ -3,7 +3,7 @@
 
 
 const image = document.getElementById("sound");
-const sound = new Audio("./soundfolder/bubblesound.mp3");
+const sound = new Audio("../soundfolder/bubblesound.mp3");
 
 image.addEventListener("click", () => {
     sound.currentTime = 0;
