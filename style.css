@@ -1,22 +1,25 @@
 *{
     margin: 0;
+    margin-bottom: 0.5vw;
     padding:0;
 }
 
 body{
-    width: 100vw;
-    background-color: rgb(232, 232, 237);
+    width: 100%;
+    background-color: rgb(50,50,50);
     cursor: url("./images/cursornew.png"), auto;
+    color: rgb(255, 255, 255);
 }
 p{
+    width: 80%;
     font-family: basic;
     font-size: 1.5em;
 }
 a:link{
-    color:rgb(232, 232, 237);
+    color:rgb(177, 177, 247);
 }
 a:visited{
-    color:rgb(255, 203, 244);
+    color:rgb(247, 177, 226);
 }
 a:hover{
     font-size: 120%;
@@ -25,45 +28,61 @@ a:hover{
 h1{
     font-family:boldfont;
     font-size: 5em;
-    color: rgb(32, 20, 47) ;
-
+    color: rgb(255, 255, 255);
 }
 h2{
     font-family:boldfont;
     font-size: 2em;
-    color: rgb(32, 20, 47) ;
+    color: rgb(255, 255, 255);
 }
-.button {
-    width:2vw;
-    color:rgb(232, 232, 237);
-    position:fixed;
-    z-index:201;
+.imglink{
+    width:10vw;
+
 }
-.button:hover{
-    width:3vw;
+.imglink:hover{
+    transform: scale(1.09);
+}
+.extraspace{
+    margin-top:2vw;
 }
 .buttonside {
     width: fit-content;
     height: 5vh;
     color:rgb(232, 232, 237);
-    right: 15px;
-    margin-top: 0.25vw;
-    position:fixed;
+    margin-top: 0.5vw;
+    z-index:201;
+    font-size: 1.5em;
+}
+.buttonsidebottom {
+    font-family: boldfont;
+    width: fit-content;
+    color:rgb(232, 232, 237);
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vw;
     z-index:201;
     font-size: 1.5em;
 }
 .header{
-    position:fixed;
     z-index: 100;
 }
 .headerbox{
     box-sizing: border-box;
-    border: 0.2vw solid rgb(232, 232, 237);
-    position:fixed;
-    width: 100%;
-    height: 5vh;
-    background-color:rgb(32, 20, 47);
+    border: 0.2vw solid rgb(255,255,255);
+    height: 24vh;
+    background-color:rgb(23, 22, 26);
     z-index: 200;
+}
+.headerboxbottom{
+    position:fixed;
+    box-sizing: border-box;
+    border: 0.2vw solid rgb(255,255,255);
+    height: 13vh;
+    background-color:rgb(23, 22, 26);
+    z-index: 200;
+    top:2%;
+    right:1%;
 }
 .image {
     width: 40%;
@@ -75,17 +94,17 @@ h2{
     height: 35%;
 }
 .imageoutline{
-    border: 0.2vw solid rgb(232, 232, 237);
+    border: 0.2vw solid rgb(255, 255, 255);
     width: 40%;
     height: 40%;
 }
 .imageoverview {
     box-sizing: border-box;
-    width: 90%;
+    width: 85%;
     height: 100%;
-    background-color: rgb(87, 97, 133);
+    background-color:rgb(23, 22, 26);
     margin-top: 0.5vw;
-    border: 0.2vw solid rgb(32, 20, 47);
+    border: 0.2vw solid rgb(255,255,255);
 }
 .sidetext{
     width: 100%;
@@ -93,8 +112,13 @@ h2{
     display: flex;
     margin: 1vw;
 }
+.nexttoimage{
+    display: inline-block;
+    vertical-align: top;
+}
 #container{
     padding-top:3vw;
+    padding-bottom:1.5vw;
     padding-left: 1vw;
 }
 #containertemp{
@@ -105,7 +129,6 @@ h2{
     padding-left: 1vw;
     margin-left: 1vw;
 }
-
 @font-face{
     font-family:pixel;
     src: url(./Fonts/Jersey10-Regular.ttf);
@@ -139,8 +162,11 @@ h2{
   font-style: normal;
   src: url("./Fonts/Limelight-Regular.ttf");
 }
-
-
+@font-face {
+  font-family: kavoon;
+  font-style: normal;
+  src: url("./Fonts/Kavoon-Regular.ttf");
+}
 @media (orientation: portrait)
 {
     
